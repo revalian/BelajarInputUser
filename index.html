@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input User</title>
+    
+</head>
+<body>
+    <h1>XIRPL5 / 24</h1>
+    <h2>Pendaftaran hiGirls!</h2>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>:</td>
+                    <td><input type="text" id="nama" placeholder="Masukan Nama"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="text" id="email" placeholder="Masukan Email"></td>
+                </tr>
+                <tr>
+                    <td>Negara</td>
+                    <td>:</td>
+                    <td>
+                        <select name="negara" id="negara">
+                            <option value="Indonesia" selected>Indonesia</option>
+                            <option value="Jepang">Jepang</option>
+                            <option value="Korea">Korea</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Brunei">Brunei</option>
+                            <option value="Malaysia">Malaysia</option>
+                            <option value="German">German</option>
+                            <option value="Afrika">Afrika</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tahun Lahir</td>
+                    <td>:</td>
+                    <td>
+                        <select name="tahun" id="tahun">
+                            <option value="1998" selected>1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><input name="gender" type="radio" id="gender" value="Pria">Pria <br>
+                    <input name="gender" type="radio" id="gender" value="Wanita">Wanita <br>
+                    <input name="gender" type="radio" id="gender" value="Tak Terdefinisi">Tak Terdefinisi</td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="ambilData()">Daftar</button>
+        <div id="tampilan">
+            
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
